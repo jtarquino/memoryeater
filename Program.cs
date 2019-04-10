@@ -57,9 +57,7 @@ namespace MemoryEater
         }
 
         /// <summary>
-        ///         /// <typeparam name="T"></typeparam>
-        /// <param name="arrayToFill"></param>
-        /// <param name="fillValue"></param>
+        /// https://stackoverflow.com/questions/6150097/initialize-a-byte-array-to-a-certain-value-other-than-the-default-null
         /// </summary>
         public static void ArrayFill<T>(T[] arrayToFill, T[] fillValue)
         {
